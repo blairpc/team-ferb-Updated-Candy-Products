@@ -1,0 +1,111 @@
+.content-wrapper {
+   width: 80%;
+   margin: 4% 10% 5% 10%;
+}
+
+
+
+img {
+   width: 1360px;
+   height: 600px;
+   object-fit: cover;
+}
+
+.home {
+    font-family: 'Piedra', cursive;
+      font-size: 10rem;
+      color: #fff;
+      text-align: center;
+      margin-top: 200px;
+  }
+  
+  /* Navbar */
+
+  .navigation {
+   position: fixed;
+   width: 60px;
+   height: 100%;
+   background: rgb(0, 0, 0, 0.2);
+   transition: 0.5s;
+   overflow: hidden;
+}
+
+.navigation:hover {
+   width: 300px;
+}
+
+.navigation ul {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.navigation ul li {
+   position: relative;
+   width: 100%;
+   list-style: none;
+}
+
+.navigation ul li:hover {
+   background: #ea1d63;
+}
+
+.navigation ul li a {
+   position: relative;
+   display: block;
+   width: 100%;
+   display: flex;
+   text-decoration: none;
+   color: #000000;
+}
+
+.navigation ul li a .icon {
+   position: relative;
+   display: block;
+   min-width: 60px;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+}
+
+.navigation ul li a .title {
+   position: relative;
+   display: block;
+   padding: 0 10px;
+   height: 60px;
+   line-height: 60px;
+   text-align: start;
+   white-space: nowrap;
+}
+
+
+
+  /* Footer */
+  
+footer{
+   margin-top: -4px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    overflow: hidden;
+  }
+
+h1 {
+   text-align: center;
+   justify-content: center;
+   font-family: 'Piedra', cursive;
+   font-size: 30px;
+   color: #ff0000;
+   overflow: auto;
+}
+
+.pc {
+   font-family: 'Piedra', cursive;
+   color: rgb(0, 0, 0);
+}
+
+.pc:hover {
+   color: #ff0000;
+}
